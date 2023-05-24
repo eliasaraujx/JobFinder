@@ -379,7 +379,7 @@ nav:after {
 	height: 100px;
 }
 
-.status-box:nth-child(2) {
+.status-box:nth-child(1) {
 	border: none;
 }
 
@@ -1050,8 +1050,8 @@ footer .wrapper:after {
 	}
 
 	html, body {
-		overflow-x: hidden;
-	}
+	  overflow-x:hidden 
+	} 
 
 	nav {
 		height: 4em;
@@ -1123,7 +1123,7 @@ footer .wrapper:after {
 		margin-bottom: 0;
 	}
 
-	#last-jobs-container {
+	#lastjobs-container {
 		padding: 5em 0;
 	}
 
@@ -1143,6 +1143,30 @@ footer .wrapper:after {
 
 	.job-type {
 		width: 22%;
+	}
+
+	#sendjobs-container {
+		background-position: 35% 0;
+		padding: 10em 0;
+	}
+
+	#sendjobs-container h2 {
+		font-size: 1.5em;
+		width: 100%;
+	}
+
+	#sendjobs-container p {
+		font-size: 1em;
+		width: 100%;
+	}
+
+	#status-box {
+		margin-top: 3em;
+		width: 100%;
+	}
+	
+	.status-box:nth-child(1), .status-box:nth-child(3) {
+		border: none;
 	}
 
 }
