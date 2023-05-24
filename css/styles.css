@@ -1169,4 +1169,21 @@ footer .wrapper:after {
 		border: none;
 	}
 
+	#testmony-container {
+		padding: 5em 0;
+	}
+
+	.testmony-box {
+		width: 100%;
+	}
+
+	#testmony-container p {
+		margin-bottom: 1em;
+	}
+
+	.footer-box {
+		display: block;
+		width: 100%;
+	}
+
 }
