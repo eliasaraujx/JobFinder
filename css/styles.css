@@ -7,13 +7,7 @@ body {
 	margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-p,
-span {
+h1, h2, h3, h4, h5, p, span {
 	margin: 0;
 	color: #666;
 }
@@ -123,11 +117,7 @@ nav:after {
 	font-weight: 300;
 }
 
-#search-form input,
-#search-form select,
-#sendjobs input,
-#sendjobs select,
-#sendjobs textarea {
+#search-form input, #search-form select, #sendjobs input, #sendjobs select, #sendjobs textarea {
 	background-color: #FFF;
 	border-radius: 5px;
 	border-color: transparent;
@@ -136,8 +126,7 @@ nav:after {
 	margin: 0 10px;
 }
 
-#search-form input[type=submit],
-#sendjobs input[type=submit] {
+#search-form input[type=submit], #sendjobs input[type=submit] {
 	background-color: #3381f3;
 	text-transform: uppercase;
 	color: #FFF;
@@ -145,8 +134,7 @@ nav:after {
 	transition: 0.5s;
 }
 
-#search-form input[type=submit]:hover,
-#sendjobs input[type=submit]:hover {
+#search-form input[type=submit]:hover, #sendjobs input[type=submit]:hover {
 	background-color: #2B79EB;
 }
 
@@ -241,8 +229,7 @@ nav:after {
 	line-height: 80px;
 }
 
-.locality i,
-.locality p {
+.locality i, .locality p {
 	display: inline-block;
 }
 
@@ -317,8 +304,7 @@ nav:after {
 	padding: 15em 0;
 }
 
-#sendjobs-container h2,
-#sendjobs-container p {
+#sendjobs-container h2, #sendjobs-container p {
 	width: 600px;
 	color: #FFF;
 }
@@ -379,7 +365,7 @@ nav:after {
 	height: 100px;
 }
 
-.status-box:nth-child(1) {
+.status-box:nth-child(2) {
 	border: none;
 }
 
@@ -402,8 +388,7 @@ nav:after {
 	padding: 10em 0;
 }
 
-#testmony-container h2,
-#testmony-container p {
+#testmony-container h2, #testmony-container p {
 	color: #FFF;
 	text-align: center;
 }
@@ -436,8 +421,8 @@ nav:after {
 
 .testmony-msg:after {
 	content: "";
-	width: 0;
-	height: 0;
+	width: 0; 
+	height: 0; 
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
 	border-top: 20px solid #FFF;
@@ -522,10 +507,7 @@ footer {
 	border-top: 5px solid #3381f3;
 }
 
-footer h2,
-footer p,
-footer a,
-footer span {
+footer h2, footer p, footer a, footer span {
 	color: #D1D1D1;
 }
 
@@ -565,8 +547,7 @@ footer .wrapper:after {
 	margin-top: 20px;
 }
 
-.company-footer h2,
-.company-footer p {
+.company-footer h2, .company-footer p {
 	margin-bottom: 20px;
 }
 
@@ -631,8 +612,7 @@ footer .wrapper:after {
 	margin-top: 3em;
 }
 
-#search-form input,
-#search-form select {
+#search-form input, #search-form select {
 	width: 20%;
 }
 
@@ -670,9 +650,7 @@ footer .wrapper:after {
 	padding-left: 1em;
 }
 
-#findjobs #type-filter ul li:nth-child(1),
-#findjobs #type-filter ul li:nth-child(2),
-#findjobs #type-filter ul li:nth-child(3) {
+#findjobs #type-filter ul li:nth-child(1), #findjobs #type-filter ul li:nth-child(2), #findjobs #type-filter ul li:nth-child(3) {
 	border-right: none;
 }
 
@@ -720,8 +698,7 @@ footer .wrapper:after {
 	box-sizing: border-box;
 }
 
-#sendjobs textarea,
-#sendjobs select {
+#sendjobs textarea, #sendjobs select {
 	border: 1px solid #CCC;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
@@ -778,12 +755,11 @@ footer .wrapper:after {
 }
 
 #job-header #job-info .job-type {
-	padding-top: 5px;
-	margin-left: 12.5%;
+    padding-top: 5px;
+    margin-left: 12.5%;
 }
 
-#job-info .date i,
-#job-info .date p {
+#job-info .date i, #job-info .date p {
 	display: inline-block;
 	color: #666;
 }
@@ -929,8 +905,7 @@ footer .wrapper:after {
 		margin-right: auto;
 	}
 
-	#search-form form input,
-	#search-form select {
+	#search-form form input, #search-form select {
 		display: block;
 		margin: 0;
 		margin-bottom: 25px;
@@ -940,11 +915,7 @@ footer .wrapper:after {
 		box-sizing: border-box;
 	}
 
-	#lastjobs-container.wrapper,
-	#status-container.wrapper,
-	#lastjobs-container.wrapper,
-	#blog-container.wrapper,
-	.wrapper {
+	#lastjobs-container.wrapper, #status-container.wrapper, #lastjobs-container.wrapper, #blog-container.wrapper, .wrapper {
 		max-width: 960px;
 		padding-left: 2em;
 		padding-right: 2em;
@@ -978,11 +949,11 @@ footer .wrapper:after {
 	}
 
 	#job-header #job-info .job-type {
-		margin-left: 5%;
+	    margin-left: 5%;
 	}
 
 	#job-header #job-info div {
-		width: 30%;
+	    width: 30%;
 	}
 
 }
@@ -1002,8 +973,7 @@ footer .wrapper:after {
 		font-size: .8em;
 	}
 
-	.locality i,
-	.locality p {
+	.locality i, .locality p {
 		font-size: .8em;
 	}
 
@@ -1015,8 +985,7 @@ footer .wrapper:after {
 		font-size: .8em;
 	}
 
-	#sendjobs-inner h2,
-	#sendjobs-inner p {
+	#sendjobs-inner h2, #sendjobs-inner p {
 		text-shadow: .5px .5px #000;
 	}
 
@@ -1025,8 +994,7 @@ footer .wrapper:after {
 		border: none;
 	}
 
-	.status-box:nth-child(1),
-	.status-box:nth-child(3) {
+	.status-box:nth-child(1), .status-box:nth-child(3) {
 		border-right: 1px solid #DDD;
 	}
 
@@ -1146,8 +1114,8 @@ footer .wrapper:after {
 	}
 
 	#sendjobs-container {
-		background-position: 35% 0;
-		padding: 10em 0;
+	    background-position: 35% 0;
+	    padding: 10em 0;
 	}
 
 	#sendjobs-container h2 {
@@ -1160,11 +1128,11 @@ footer .wrapper:after {
 		width: 100%;
 	}
 
-	#status-box {
-		margin-top: 3em;
+	.status-box {
+		margin-top: 3em; 
 		width: 100%;
 	}
-	
+
 	.status-box:nth-child(1), .status-box:nth-child(3) {
 		border: none;
 	}
@@ -1185,5 +1153,5 @@ footer .wrapper:after {
 		display: block;
 		width: 100%;
 	}
-
+	
 }
