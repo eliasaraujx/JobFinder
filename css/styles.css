@@ -690,6 +690,11 @@ footer .wrapper:after {
 	margin-bottom: 1em;
 }
 
+#sendjobs input, #sendjobs textarea, #sendjobs select {
+	padding: 10px 20px
+	font-size: 18px;
+}
+
 #sendjobs input {
 	border-radius: 5px;
 	border: solid 1px #CCC;
@@ -699,6 +704,7 @@ footer .wrapper:after {
 }
 
 #sendjobs textarea, #sendjobs select {
+	border-radius: 5px;
 	border: 1px solid #CCC;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
